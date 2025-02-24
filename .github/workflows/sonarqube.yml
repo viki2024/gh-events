@@ -17,7 +17,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --save-dev @vitest/coverage-c8
 
       - name: Run tests and generate coverage
         run: npm test -- --coverage
