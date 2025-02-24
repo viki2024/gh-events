@@ -31,6 +31,6 @@ jobs:
         run: |
           sonar-scanner \
             -Dsonar.projectKey=mi-proyecto-node \
-            -Dsonar.host.url=http://localhost:9000 \
+            -Dsonar.host.url=http://35.232.4.123:9000 \
             -Dsonar.login=$SONAR_TOKEN \
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
