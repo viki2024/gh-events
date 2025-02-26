@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Probar conexión a SonarQube
+      - run: curl -I http://34.58.56.21:9000
+      
       - name: Checkout repository
         uses: actions/checkout@v3
 
