@@ -37,6 +37,6 @@ jobs:
             -Dsonar.host.url=http://34.58.56.21:9000 \
             -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
             -Dsonar.sources=src \
-            -Dsonar.tests=src/test \
+            -Dsonar.tests=test \
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
 
