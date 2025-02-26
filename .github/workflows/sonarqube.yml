@@ -30,7 +30,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           sonar-scanner \
-            -Dsonar.projectKey=mi-proyecto-node \
+            -Dsonar.projectKey=My-project-dev \
             -Dsonar.host.url=http://35.232.4.123:9000 \
             -Dsonar.login=$SONAR_TOKEN 
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
